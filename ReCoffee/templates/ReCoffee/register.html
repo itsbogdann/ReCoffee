@@ -1,0 +1,19 @@
+{% extends 'ReCoffee/base.html' %}
+
+{% block content %}
+
+<h1 id="logo" style="text-align:center; width:100%; margin-top:100px;">Register</h1>
+
+
+<div class="registerpage">
+<form class="register-form" method="POST">
+	{% csrf_token %}
+    {{ formularul.as_ul }}
+	{{ error_message }}
+<button class="button" type="submit">Register</button>
+</form>
+</div>
+
+
+{% endblock %}
+

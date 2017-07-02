@@ -1,0 +1,208 @@
+/* Menu */
+nav{
+	/*meniu maro*/
+	background-color: #52352E; 
+	font-size: 1.2em;
+	font-weight: bold;
+	margin: auto;
+	padding: 0.6em;
+	position: relative;
+	text-align: right;
+}
+
+nav a{
+	display: inline-block;
+	margin-left: 1.25em;
+	padding: 1em;
+	text-align: center;
+	transition: background-color 0.5s;
+	width: 4.5em;
+}
+
+nav a:link, a:visited{
+	background-color: #52352E;
+	color: #FB9612; 
+}
+
+nav a:hover, a:active{
+	background-color: #FB9612;
+	color: #52352E;
+}
+
+.dropbtn{
+	cursor: pointer;
+	display: inline-block;
+	margin-left: 1.25em;
+	padding: 1em;
+	text-align: center;
+	transition: background-color 0.2s;
+	width: 4.5em;
+}
+
+.dropdown{
+	display: inline-block;
+	position: relative;
+}
+
+.content{
+	background-color: #52352E;
+	display: none;
+	min-width: 9em;
+	padding: 0.7em 0em;
+	position: absolute;
+}
+
+.content a {
+	color: #FB9612;
+	display: block;
+	padding: 1em 1.5em;
+	margin: auto;
+	width: 4.5em;
+}
+
+.dropdown:hover .content{
+	display: block;
+	z-index: 1;
+}
+
+#logo {
+	float: left;
+    height: auto;
+	position: absolute;
+	width: 250px;
+	z-index: 2;
+}
+
+/* User Profile */
+.profile{
+	align-items: center;
+	border: 2px solid #52352E;
+	border-radius: 5px;
+	justify-content: center;
+	line-height: 200%;
+	margin: auto;
+	margin-top: 50px;
+	max-width: 75%;
+	min-height: 400px;
+	padding: 10px;
+	position: relative;
+}
+
+#avatar{
+	float: right;
+	height: auto;
+	max-width: 200px;
+	max-height: 400px;
+	padding: 10px;
+}
+
+/* Shop Profile - variation of User Profile */
+.annotation{
+	background-color: #52352E;
+	color: #FB9612;
+	display: none;
+	font-weight: bold;
+	margin: auto;
+	min-width: 5em;
+	position: absolute;
+	text-align: center;
+	opacity: 0.7;
+}
+
+.dropdown:hover .annotation{
+	display: block;
+	z-index: 1;
+	top: -11px;
+	cursor: pointer;
+}
+
+.shop-title{
+	display: inline-block;
+}
+
+#favebtn{
+	display: inline-block;
+	max-width: 20px;
+}
+
+/* Searches */
+.search-form{
+	#float: center;
+	text-align:center;
+	padding-left: 15px;
+}
+
+
+/* Register */
+.registerpage{
+	align-items: center;
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	width: 100vw;
+}
+
+.register-form{
+	border-radius: 10px;
+	/* culoare margine search maro*/
+	border: 1px solid #755A38;
+	box-shadow: 0px 0px 12px #aaa;
+	padding: 30px 70px;
+}
+
+
+/* Login */
+.loginpage{
+	align-items: center;
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	width: 100vw;
+}
+
+.login-form{
+	border-radius: 10px;
+	/* culoare margine search maro*/
+	border: 1px solid #755A38;
+	box-shadow: 0px 0px 12px #aaa;
+	padding: 30px 70px;
+}
+
+/* General styles */
+a{
+	/* culoare linkuri oranj*/
+	color: #FB9612; 
+	font-weight: bold;
+	text-decoration: none;
+}
+
+body{
+	/* culoare de fundal bej*/
+	background-color: #D9C9B3;
+	font-family: Helvetica;
+	margin: 0;
+}
+
+.button{
+	cursor: pointer;
+}
+
+#indexpag {
+	width:100%;
+	float:left;
+	text-align:center;
+}
+.link{
+	cursor:pointer;
+}
+
+.boaba {
+	position: absolute;
+top:30px;
+cursor: pointer;
+    z-index: 999;
+
+}
+.shoptitle {
+ 	margin-left: 30px;
+}

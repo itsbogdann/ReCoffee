@@ -1,0 +1,15 @@
+{% extends 'ReCoffee/base.html' %}
+{% block content %}
+
+<h1 id="logo" style="text-align:center; width:100%; margin-top:100px;">Log In</h1>
+
+<div class="loginpage">
+<form class="login-form" method="POST">
+{% csrf_token %}
+{{form.as_p}}
+{{ error_message }}
+<button class="button" type="submit">Login</button>
+</form>
+</div>
+
+{% endblock %}
