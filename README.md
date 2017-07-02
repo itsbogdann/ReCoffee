@@ -1,9 +1,9 @@
 # ReCoffee
 
-Numele echipei:  Coffee Squad
 --------------------
 
-Descrierea proiectului: 
+Project Description
 --------------------
 
- Proiectul reprezinta o platforma de recenzii a cafenelelor, cu acces public pentru vizionarea recenziilor, insa pentru adaugarea unei astfel de recenzii este necesar un cont de utilizator. In plus, un utilizator poate adauga la o lista de favorite cafenelele preferate
+ 
+ This project represents a coffee shop review platform with public access to reviews and account creation. An user can add coffee shops to favourites and get notified when prices change or when the polarity of the reviews changes.
